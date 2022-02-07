@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAR WARS QUIZ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="./giphy.gif">
+    <h1 id="main-h">STAR WARS QUIZ</h1>
+    <h2 id="questions-h">Questions</h2>
+    <div class="quiz">
+    <p class="questions" id="question1">
+      1- In Star Wars, what do they call the invisible power that binds the galaxy together? </p>
+    <input type="radio" name="answer1" value="wrong"><span>Dark Matter</span>
+    <input type="radio" name="answer1" value="correct"><span>The Force</span>
+    <input type="radio" name="answer1" value="wrong"><span>Dharma</span>
+    <input type="radio" name="answer1" value="wrong"><span>Thermodynamics</span>
+    <hr>
+
+    <p class="questions" id="question2">
+      2- C-3P0 is fluent in how many languages?</p>
+    <input type="radio" name="answer2" value="wrong"><span>Over 600 million languages</span>
+    <input type="radio" name="answer2" value="wrong"><span>Over 60 languages</span>
+    <input type="radio" name="answer2" value="correct"><span>Over 60 million languages</span>
+    <input type="radio" name="answer2" value="wrong"><span>Over 6000 languages</span>
+    <hr>
+
+    <p class="questions" id="question3">
+      3- What is the name of Yodas home?</p>
+    <input type="radio" name="answer3" value="wrong"><span>Nal Huta</span>
+    <input type="radio" name="answer3" value="wrong"><span>Tatooine</span>
+    <input type="radio" name="answer3" value="correct"><span>Degobah</span>
+    <input type="radio" name="answer3" value="wrong"><span>Naboo</span>
+    <hr>
+
+    <p class="questions" id="question4">
+      4- Who built C-3P0?</p>
+    <input type="radio" name="answer4" value="wrong"><span>Sionver Boll</span>
+    <input type="radio" name="answer4" value="correct"><span>Anakin Skywalker</span>
+    <input type="radio" name="answer4" value="wrong"><span>Jar Jar Binks</span>
+    <input type="radio" name="answer4" value="wrong"><span>Watto</span>
+    <hr>
+
+    <p class="questions" id="question5">
+      5- What is the name of Boba Fetts ship?</p>
+    <input type="radio" name="answer5" value="correct"><span>Slave 1</span>
+    <input type="radio" name="answer5" value="wrong"><span>Invictus</span>
+    <input type="radio" name="answer5" value="wrong"><span>Rezor Crest</span>
+    <input type="radio" name="answer5" value="wrong"><span>Millennium Falcon</span>
+    <hr>
+
+    <p class="questions" id="question6">
+      6- How old is Yoda when he dies?</p>
+    <input type="radio" name="answer6" value="wrong"><span>90 years old</span>
+    <input type="radio" name="answer6" value="wrong"><span>250 years old</span>
+    <input type="radio" name="answer6" value="wrong"><span>100 years old</span>
+    <input type="radio" name="answer6" value="correct"><span>900 years old</span>
+    <hr>
+
+    <p class="questions" id="question7">
+      7- Who was the Jedi master that ordered to create clones?</p>
+    <input type="radio" name="answer7" value="correct"><span>Syfo Dyas</span>
+    <input type="radio" name="answer7" value="wrong"><span>Ashoka Tano</span>
+    <input type="radio" name="answer7" value="wrong"><span>Obi-Wan Kenoby</span>
+    <input type="radio" name="answer7" value="wrong"><span>Count Dooku</span>
+    <hr>
+
+    <p class="questions" id="question8">
+      8- What is the substance that powers the lightsabers?</p>
+    <input type="radio" name="answer8" value="correct"><span>Ilum </span>
+    <input type="radio" name="answer8" value="wrong"><span>Chromite</span>
+    <input type="radio" name="answer8" value="wrong"><span>Dolomite</span>
+    <input type="radio" name="answer8" value="wrong"><span>Trinium</span>
+    <hr>
+
+    <p class="questions" id="question9">
+     9- How many engines does the X-Wing Fighter have?</p>
+    <input type="radio" name="answer9" value="wrong"><span>2</span>
+    <input type="radio" name="answer9" value="wrong"><span>8</span>
+    <input type="radio" name="answer9" value="correct"><span>4</span>
+    <input type="radio" name="answer9" value="wrong"><span>6</span>
+    <hr>
+
+    <p class="questions" id="question10">
+     10- What alien race does Admiral Ackbar belong to?</p>
+    <input type="radio" name="answer10" value="wrong"><span>Wookie</span>
+    <input type="radio" name="answer10" value="correct"><span>Mon Calamary</span>
+    <input type="radio" name="answer10" value="wrong"><span>Hutt</span>
+    <input type="radio" name="answer10" value="wrong"><span>Human</span>
+    <hr>
+
+    <div class="resultSection">
+          <button class="submit" onclick="return getResults();" type="submit">
+          Check My Results</button>
+
+          <h2 id="results-h">Results</h2>
+          <p id="results"></p>
+     </div>
+  </div>
+    <script src="index.js"></script>
+</body>
+</html>
